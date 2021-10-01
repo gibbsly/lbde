@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=lbde.rot_ent,distance=..10] if score @s lbde.main = current= lbde.main at @s run function lbde:dedit/set_block
